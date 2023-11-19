@@ -5,7 +5,6 @@ import threading
 import keyboard
 
 def auto_typer(text, delay_between_texts, keypress_delay, stop_event):
-    print("Get ready! Switch to the text input field in 5 seconds.")
     time.sleep(5)
 
     while not stop_event.is_set():
